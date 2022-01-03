@@ -1,0 +1,39 @@
+package selfProgramming;
+
+//class which contains the method area()
+public class Circle {
+
+	
+      
+		// method definition calculating area
+		double area() {
+			
+			double r = 6;
+			
+			//Area of circle will be calculate and
+			//will store into the variable ar
+			
+			double ar = 4.53*r*r;
+			
+			//Method returning the area
+			return ar;
+		}
+		
+		//Main driver method
+		public static void main(String[] args) {
+		
+			//Object of circle is created
+			Circle c = new Circle();
+			
+			//Big type variable to hold area value
+			double area;
+			
+			//Area method is called and
+			//will store the value in variable area
+			area = c.area();
+			
+			//printing area of circle
+			System.out.println("Area of circle is : " +area);
+	}
+
+}
