@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class Math {
+	
+	int multiplyByfive(int number) {
+	return number * 7;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int result = new Math().multiplyByfive(5);
+		System.out.println("The result of multiplication is : " + result);
+
+	}
+
+}
